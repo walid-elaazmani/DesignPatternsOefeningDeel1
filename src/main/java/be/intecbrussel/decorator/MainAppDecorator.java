@@ -4,9 +4,10 @@ public class MainAppDecorator {
     public static void main(String[] args) {
         RealChristmasTree myTree = new RealChristmasTree();
         Garland garlandedTree = new Garland(myTree);
+        TreeTopper tt = new TreeTopper(garlandedTree);
 
 
-        System.out.println(myTree.decorate());
-        System.out.println(garlandedTree.decorate());
+        System.out.println(tt.decorate());
+
     }
 }

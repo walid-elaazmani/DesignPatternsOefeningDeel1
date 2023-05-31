@@ -6,6 +6,6 @@ public class Garland extends TreeDecorator{
     }
 
     @Override public String decorate(){
-        return "Tree has Garlands";
+        return super.decorate() + " + Garlands";
     }
 }

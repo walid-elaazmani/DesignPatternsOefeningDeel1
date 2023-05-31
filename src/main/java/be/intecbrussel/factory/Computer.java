@@ -10,5 +10,12 @@ public abstract class Computer {
         this.cpu = cpu;
         this.hdd = hdd;
     }
-
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "ram='" + ram + '\'' +
+                ", cpu='" + cpu + '\'' +
+                ", hdd='" + hdd + '\'' +
+                '}';
+    }
 }

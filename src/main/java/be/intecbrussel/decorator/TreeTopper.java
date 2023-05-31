@@ -5,6 +5,6 @@ public class TreeTopper extends TreeDecorator{
         super(christmasTree);
     }
     @Override public String decorate(){
-        return "Tree has Topper";
+        return  super.decorate() + " + Topper";
     }
 }

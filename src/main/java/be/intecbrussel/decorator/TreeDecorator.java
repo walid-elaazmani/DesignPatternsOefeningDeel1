@@ -5,4 +5,8 @@ public abstract class TreeDecorator implements ChristmasTree {
     public TreeDecorator(ChristmasTree christmasTree) {
         this.christmasTree = christmasTree;
     }
+    @Override
+    public String decorate() {
+        return christmasTree.decorate();
+    }
 }

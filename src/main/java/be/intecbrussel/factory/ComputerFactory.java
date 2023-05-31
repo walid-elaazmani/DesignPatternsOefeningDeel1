@@ -15,5 +15,4 @@ public class ComputerFactory {
                 throw new NoSuchElementException("Invalid input");
         }
     }
-
 }
